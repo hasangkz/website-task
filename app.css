@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+#bars {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+.tutucu {
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-family: "Inter", sans-serif;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.bold {
+  font-weight: bold;
+}
+.gray {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.wrap {
+  margin: 0 auto;
+  background: rgb(196, 181, 253);
+  background: rgb(196, 181, 253);
+  background: radial-gradient(
+    circle at right top,
+    rgba(196, 181, 253, 0.8) 8%,
+    rgba(255, 255, 255, 1) 25%
+  );
+}
+nav {
+  position: relative;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.navbar a {
+  margin: 1rem;
+  color: #000;
+}
+#tm {
+  margin-bottom: 1rem;
+}
+.load {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.25rem;
+}
+.load a {
+  margin-right: 1rem;
+}
+.load a:nth-child(2) {
+  margin-left: 1rem;
+}
+.download {
+  width: 8rem;
+  height: 2.5rem;
+}
+
+.container {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  height: 866px;
+  position: relative;
+}
+.band {
+  width: 26rem;
+  height: 10rem;
+}
+.giris {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 32rem;
+}
+.giris p {
+  margin: 1.5rem 0;
+  line-height: 1.5rem;
+}
+.giris2 {
+  margin-top: 1rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.giris button:nth-child(2) {
+  margin-left: 2rem;
+}
+
+.btn {
+  background-color: #7c3aed;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 8rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #7c3aed;
+}
+#trans {
+  background-color: #fff;
+  color: #7c3aed;
+}
+#trans:hover {
+  background-color: #7c3aed;
+  color: #fff;
+}
+.telefon {
+  width: 60%;
+  height: 32rem;
+}
+.ic {
+  position: relative;
+  margin: 0 auto;
+  width: 40%;
+  height: 40rem;
+  z-index: 1;
+}
+.solid {
+  margin: 0 auto;
+  background: #e5e7eb;
+  width: 70rem;
+  border-radius: 0px;
+}
+#iphone {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#screen {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.a {
+  margin-top: 4rem;
+  position: relative;
+  height: 7rem;
+}
+.a ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.a ul li {
+  margin: 0 2rem;
+}
+.a ul li img {
+  height: 2rem;
+  width: 6rem;
+  border-radius: 0px;
+}
+
+.yazi {
+  text-align: center;
+  width: 100%;
+  margin-top: 4rem;
+  height: 10rem;
+}
+.yazi p {
+  width: 42rem;
+  margin: 0 auto;
+}
+.pab {
+  position: absolute;
+}
+.bilgiler {
+  height: 36rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+  margin-left: 4rem;
+  margin-right: 3rem;
+  padding: 0.1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  align-items: center;
+}
+
+.card h2 {
+  margin-top: 3rem;
+}
+.card p {
+  width: 23.6rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.article {
+  background-color: #d5fafc;
+  height: 52rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+.article1 {
+  margin-top: 7rem;
+}
+.article2 {
+  margin-top: 12rem;
+  margin-right: 20rem;
+}
+.yorum {
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+}
+#tirnak {
+  left: 8rem;
+  top: 3rem;
+  opacity: 0.3;
+}
+.info {
+  margin-left: 15rem;
+  width: 32.5rem;
+  text-align: left;
+}
+.airbnb {
+  position: relative;
+  margin-left: 2rem;
+  width: 30.5rem;
+  height: 17.5rem;
+  background-color: #fff;
+}
+.strapi {
+  position: relative;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  width: 24rem;
+  height: 14rem;
+  background-color: #fff;
+}
+.hubspot {
+  position: relative;
+  margin-top: 4rem;
+  margin-left: 21.5rem;
+  width: 26rem;
+  height: 22.75rem;
+  background-color: #fff;
+}
+
+.img {
+  width: 8rem;
+  height: 2.2rem;
+  display: inline-block;
+}
+.article p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2.2rem;
+}
+.article span {
+  margin-left: 2rem;
+}
+.hubspot span {
+  margin-left: 0;
+}
+.isaret {
+  left: 2.2rem;
+  top: 6.2rem;
+}
+.footer {
+  width: 100%;
+  height: 16rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.alt1 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  text-align: left;
+  margin-top: 2rem;
+  margin-right: 28rem;
+}
+.alt1 p {
+  color: #d1d5db;
+  font-size: 14px;
+}
+.alt1 a {
+  margin-top: -1rem;
+  margin-right: 2rem;
+}
+.alt2 {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.alt2 a {
+  margin-top: 1rem;
+}
+.footer a {
+  color: #fff;
+}
+.footer p {
+  margin-top: 2rem;
+}
